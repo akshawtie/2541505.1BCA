@@ -6,6 +6,28 @@
 using namespace std;
 
 
+/*
+Documentation-
+Class crd:-is used to generate cards,it uses an array with integer values with initial 
+value as 0, 0 denotes the card is not picked. 1 denotes the card is picked. the value of card is denoted
+by its position in array.
+
+Class prs:- is used to define choose which player is playing the  game(player 1 and player 2),it also is 
+responsible for calculation of who the winner is and directing the game flow.
+
+class prs inherits crd.
+ 
+class bluf just inherits both the prs and crd deciding a menu for both programs;
+
+class arc is the actual arcade game which is used to inherit all the three classes. tge actual arcade(game list and 
+other games are stored here. it is also responsible for an other menu). it has multiple functions like a password changer(usage 
+of friend function has been commented out for evolving to other programs as directed by our class teacher.)
+
+
+
+
+
+*/
 
 class crd
 {
@@ -438,4 +460,5 @@ int main() {
         s1.tapl3();
     return 0;
     }
+}
 }
